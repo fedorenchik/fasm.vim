@@ -8,7 +8,6 @@ if exists("b:did_indent")
 endif
 let b:did_indent = 1
 
-
 setlocal indentexpr=GetFasmIndent()
 " default indentkeys value: 0{,0},:,0#,!^F,o,O,e
 setlocal indentkeys+==if,=repeat,=virtual,=else,=ends
