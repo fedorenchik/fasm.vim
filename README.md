@@ -2,6 +2,14 @@
 
 Has syntax, compiler, indent support.
 
+## Set Flat Assembler syntax by default for `*.asm` files
+
+Add following to your `.vimrc`:
+
+```
+autocmd BufReadPre *.asm let g:asmsyntax = "fasm"
+```
+
 ## Improvements to the original works:
 
 * All files are useable on Linux
